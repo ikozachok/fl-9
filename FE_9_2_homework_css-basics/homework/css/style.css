@@ -1,5 +1,188 @@
 /* 
-
-write your code here
-
+  Print version
 */
+
+@media print {
+  .tm-main-nav {
+    display: none;
+  }
+
+  .tm-main-content {
+    margin-left: 0;
+  }
+
+  .tm-main-content > *,
+  #about {
+    display: none;
+  }
+
+  #home,
+  #home+section,
+  .tm-footer {
+    display: block;
+  }
+
+  .tm-banner {
+    max-height: 200px;
+  }
+
+  h2.tm-section-title {
+    color: blue;
+  }
+
+  .tm-team-description-container {
+    max-width: 100%;
+  }
+
+  .flex-2-col {
+    flex-direction: column;
+  }
+
+  .pad {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .tm-content-box {
+    margin-bottom: 0;
+  }
+
+  footer {
+    margin-top: 15px;
+  }
+}
+
+@media screen {
+  #about img {
+    border-radius: 50%;
+  }
+
+  .box-bg h2 {
+    font-size: 50px;
+  }
+
+  .box-bg h2:hover {
+    background: #31b0d5;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  p::first-letter {
+    font-size: 30px;
+    color: #76cdd7;
+  }
+
+  footer p::first-letter {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .tm-content-box,
+  .tm-main-nav {
+    box-shadow: 0 0 20px#666;
+    padding: 0;
+  }
+
+  #home::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 100px 0 0;
+    border-color: #31b0d5 transparent;
+  }
+
+  section::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 100px 0 0;
+    border-color: #31b0d5 transparent;
+  }
+
+  #ideas .tm-section-title {
+    color: gainsboro;
+    letter-spacing: 5px;
+  }
+
+  .p {
+    text-indent: 20px;
+    line-height: 2.2;
+  }
+
+  .box h2 {
+    font-size: 45px;
+  }
+
+  p.tm-section-description {
+    text-indent: 40px;
+  }
+
+  section h2 + p {
+    font-style: italic;
+  }
+
+  .pad a:visited {
+    color: silver;
+  }
+
+  .pad a:hover {
+    color: #76cdd7;
+    border-bottom: 1px double;
+  }
+
+  .pad li:nth-child(1)::after,
+  .pad li:nth-child(3)::after {
+    content: 'New';
+    color: red;
+    font-size: 75%;
+    vertical-align: top;
+  }
+
+  .blocks .box p::first-letter {
+    color: black;
+    font-size: 35px;
+  }
+
+  .blocks .box p {
+    font-size: 23px;
+    font-style: italic;
+  }
+
+  .blocks .box:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+  .tm-nav-item {
+    border-bottom: 2px dotted silver;
+  }
+
+  .tm-nav-item:last-child {
+    border-bottom: 0;
+  }
+
+  .form-control,
+  .submit-btn {
+    color: red;
+  }
+
+  .carousel {
+    position: relative;
+    height: auto;
+    padding: 50px 50px 80px;
+    text-align: center;
+  }
+
+  .mandatory-field::after {
+  content: "*";
+  color: red;
+  }
+
+  .submit-btn:hover {
+    background: #31b0d5;
+    color: white;
+  }
+}
