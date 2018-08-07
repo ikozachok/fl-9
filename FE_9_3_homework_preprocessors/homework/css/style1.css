@@ -1,0 +1,135 @@
+body {
+  background: #fff;
+  font-family: sans-serif; }
+
+input, textarea {
+  background: #fff; }
+
+img {
+  width: 100%; }
+
+.main-wrapper {
+  width: 960px;
+  margin: 0 auto; }
+  .main-wrapper header .logo {
+    float: left;
+    width: 350px; }
+  .main-wrapper header nav {
+    width: 580px;
+    padding: 10px;
+    float: left;
+    border-bottom: 1px solid #617d8a;
+    border-top: 1px solid #617d8a;
+    margin-top: 160px; }
+    .main-wrapper header nav a {
+      display: inline-block;
+      padding: 6px 64px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #1fbcd3; }
+
+.list {
+  float: left; }
+
+#content {
+  width: 100%;
+  margin: 0 auto; }
+
+.toolbar {
+  float: right;
+  clear: both;
+  margin-top: 25px; }
+  .toolbar input, .toolbar textarea {
+    color: #1fbcd3;
+    border: 1px solid #1fbcd3;
+    margin: 10px;
+    padding: 5px 15px;
+    height: 30px; }
+    .toolbar input::placeholder, .toolbar textarea::placeholder {
+      color: #1fbcd3; }
+
+.post-list {
+  float: left; }
+  .post-list article {
+    float: left;
+    width: 440px;
+    background: #efefef;
+    margin: 20px 10px 0px 10px;
+    padding: 10px; }
+    .post-list article:nth-child(odd) {
+      clear: both; }
+    .post-list article div {
+      margin: 0px 10px 20px; }
+      .post-list article div .post-description {
+        margin: 0px;
+        padding: 8px;
+        clear: both;
+        font-size: 12px;
+        color: #159587;
+        border-bottom: 1px solid #617d8a; }
+      .post-list article div h3 {
+        margin: 8px 0px;
+        color: #1697a6;
+        text-transform: uppercase; }
+      .post-list article div p {
+        margin: 0px;
+        color: #617d8a;
+        line-height: 1.5; }
+
+#about {
+  float: left;
+  display: block;
+  margin-top: 40px; }
+  #about h1 {
+    margin: 10px;
+    color: #1fbcd3;
+    text-transform: uppercase;
+    text-align: right; }
+  #about p {
+    color: #617d8a;
+    line-height: 1.5; }
+
+#contact {
+  float: left;
+  display: block;
+  margin-top: 40px;
+  color: #1fbcd3;
+  text-transform: uppercase;
+  text-align: right;
+  width: 100%; }
+  #contact h1 {
+    margin: 12px 0px 5px; }
+  #contact h4 {
+    margin: 0px 0px 20px; }
+  #contact input, #contact textarea {
+    width: 97%;
+    padding: 7px 12px;
+    margin: 8px 0;
+    height: 30px;
+    color: #617d8a;
+    border: 1px solid #617d8a;
+    font-size: 16px; }
+  #contact textarea {
+    width: 97%;
+    padding: 7px 12px;
+    margin: 8px 0;
+    height: 120px;
+    color: #617d8a;
+    border: 1px solid #617d8a;
+    font-size: 18px; }
+  #contact .send-btn {
+    background: #1fbcd3;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    height: 40px;
+    width: 200px; }
+
+footer {
+  float: left;
+  margin-top: 40px;
+  color: #617d8a;
+  font-size: 13px; }

@@ -1,0 +1,135 @@
+body {
+  background: #efefef;
+  font-family: serif; }
+
+input, textarea {
+  background: #efefef; }
+
+img {
+  width: 100%; }
+
+.main-wrapper {
+  width: 960px;
+  margin: 0 auto; }
+  .main-wrapper header .logo {
+    float: left;
+    width: 350px; }
+  .main-wrapper header nav {
+    width: 580px;
+    padding: 10px;
+    float: left;
+    border-bottom: 1px solid #cfd8dc;
+    border-top: 1px solid #cfd8dc;
+    margin-top: 160px; }
+    .main-wrapper header nav a {
+      display: inline-block;
+      padding: 6px 64px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #FF0000; }
+
+.list {
+  float: left; }
+
+#content {
+  width: 100%;
+  margin: 0 auto; }
+
+.toolbar {
+  float: right;
+  clear: both;
+  margin-top: 25px; }
+  .toolbar input, .toolbar textarea {
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    margin: 10px;
+    padding: 5px 15px;
+    height: 30px; }
+    .toolbar input::placeholder, .toolbar textarea::placeholder {
+      color: #FF0000; }
+
+.post-list {
+  float: left; }
+  .post-list article {
+    float: left;
+    width: 440px;
+    background: #ffffff;
+    margin: 20px 10px 0px 10px;
+    padding: 10px; }
+    .post-list article:nth-child(odd) {
+      clear: both; }
+    .post-list article div {
+      margin: 0px 10px 20px; }
+      .post-list article div .post-description {
+        margin: 0px;
+        padding: 8px;
+        clear: both;
+        font-size: 12px;
+        color: #bdbdbd;
+        border-bottom: 1px solid #cfd8dc; }
+      .post-list article div h3 {
+        margin: 8px 0px;
+        color: #617d8a;
+        text-transform: uppercase; }
+      .post-list article div p {
+        margin: 0px;
+        color: #757575;
+        line-height: 1.5; }
+
+#about {
+  float: left;
+  display: block;
+  margin-top: 40px; }
+  #about h1 {
+    margin: 10px;
+    color: #FF0000;
+    text-transform: uppercase;
+    text-align: right; }
+  #about p {
+    color: #757575;
+    line-height: 1.5; }
+
+#contact {
+  float: left;
+  display: block;
+  margin-top: 40px;
+  color: #FF0000;
+  text-transform: uppercase;
+  text-align: right;
+  width: 100%; }
+  #contact h1 {
+    margin: 12px 0px 5px; }
+  #contact h4 {
+    margin: 0px 0px 20px; }
+  #contact input, #contact textarea {
+    width: 97%;
+    padding: 7px 12px;
+    margin: 8px 0;
+    height: 30px;
+    color: #757575;
+    border: 1px solid #757575;
+    font-size: 16px; }
+  #contact textarea {
+    width: 97%;
+    padding: 7px 12px;
+    margin: 8px 0;
+    height: 120px;
+    color: #757575;
+    border: 1px solid #757575;
+    font-size: 18px; }
+  #contact .send-btn {
+    background: #FF0000;
+    color: #efefef;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    height: 40px;
+    width: 200px; }
+
+footer {
+  float: left;
+  margin-top: 40px;
+  color: #757575;
+  font-size: 13px; }
