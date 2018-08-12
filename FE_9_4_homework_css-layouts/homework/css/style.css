@@ -1,0 +1,307 @@
+
+head {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #B7C8D9;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-wrapper {
+  background: #f3f3f3;
+  min-width: 900px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.promo {
+  position: relative;
+  color: #fff;
+  background-image: url("../img/apples.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 556px;
+}
+
+.top-menu {
+  position: absolute;
+  top: 50px;
+  right: 60px;
+}
+
+.top-menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 30px;
+}
+
+.top-menu a:visited {
+  color: #fff;
+}
+
+.logo-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo-small {
+  position: absolute;
+  left: 60px;
+  top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.logo {
+  font-size: 40px;
+  letter-spacing: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.logo span {
+  font-size: 75px;
+}
+
+.slogan {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.show-more-btn {
+  position: absolute;
+  border: 1px solid #fff;
+  width: 200px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, 0);
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  color: #343638;
+  padding: 100px 80px;
+}
+
+#about .left {
+  font-size: 18px;
+  flex: 1 0 0;
+}
+
+#about .right {
+  flex: 1 0 0;
+  text-align: justify;
+}
+
+/*Post list*/
+
+.post-list-title {
+  padding: 180px 0 110px 0;
+  text-align: center;
+}
+
+.post-list {
+  display: flex;
+}
+
+article {
+  padding: 5px 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+article:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+article .description {
+  position: relative;
+  flex: 1 0 0;
+  flex-basis: 37%;
+  display: flex;
+  align-content: center;
+}
+
+.description h4 {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.img-sample {
+  position: relative;
+}
+
+.img-sample:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 3px;
+  left: 0;
+  background-image: linear-gradient(to top,#343638,transparent);
+  opacity: .6;
+}
+
+.post-date {
+  position: absolute;
+  bottom: 13px;
+  left: 10px;
+  color: #fff;
+}
+
+.likes {
+  border: 2px solid #fff;
+  background: #343638;
+  padding: 7px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.font-regular {
+  font-style: normal;
+  font-weight: 400;
+}
+/*subscribe*/
+
+#subscribe {
+  flex: 1 0 0;
+  background-color: #fff;
+  height: 100px;
+  margin: 40px;
+  padding: 46px 10px 0px 10px;
+  font-size: 20px;
+}
+
+#subscribe label, .form-control, .send-btn {
+  float: left;
+}
+
+#subscribe label {
+  padding: 10px;
+}
+
+.form-control {
+  background-color: #f3f3f3;
+  color: #000;
+  border: 1px solid #000;
+  padding: 5px 15px;
+  height: 40px;
+  width: 672px;
+}
+
+.send-btn {
+  background-color: #343638;
+  color: #f0f0f0;
+  border: none;
+  height: 52px;
+  width: 100px;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer-wrapper {
+  display: flex;
+  background-color: #fff;
+  padding: 80px 30px;
+}
+
+.footer-wrapper > .black, .contacts, .last-tweet, .newsletter {
+  flex: 1 0 0;
+  margin: 20px;
+  text-align: justify;
+}
+
+.light {
+  color: #E8E8E8;
+}
+
+.tweet {
+  color: #9E9E9E;
+  padding: 17px 0px 3px;
+}
+
+.form-control2 {
+  float: right;
+  background-color: #f3f3f3;
+  color: #000;
+  border: 1px solid #000;
+  padding: 3px 10px;
+  height: 28px;
+  width: 152px;
+}
+
+input::placeholder {
+  color:#000;
+}
+
+.send-btn2 {
+  float: right;
+  background-color: #343638;
+  color: #f0f0f0;
+  border: none;
+  height: 36px;
+  width: 70px;
+}
+
+.end-wrapper {
+  background-color: #fff;
+  padding: 20px 45px;
+}
+
+.end {
+  border-top: 1px solid #E8E8E8;
+  padding-top: 20px;
+}
+
+.footer-wrapper2 {
+  color: #9E9E9E;
+}
+
+.menu2 {
+  float: right;
+  word-spacing: 10px;
+}
+
+.menu2 a {
+  color: #000;
+  text-decoration: none;
+}
