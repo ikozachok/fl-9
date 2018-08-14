@@ -2,6 +2,7 @@
  * Feel free to change name of colors if you need it
  * Feel free to add new colors if you need it
  */
+
 /*:root {
   --bg-color--dark: #0a1223;
   --bg-color--light: #fff;
@@ -14,13 +15,13 @@
 
   /* These styles are needed only for media query max-width: 575px */
 
-  /* The 'Up' button (circle button at right bottom corner) */
-  /*--btn-color: #fff;
+/* The 'Up' button (circle button at right bottom corner) */
+
+/*--btn-color: #fff;
   --btn-bg-color: #5ebcff;
 
   --navigation-border-bottom: #ddd;
   --thumbnail-title: #484747;*/
-
 
 /* Your styles go here */
 
@@ -54,34 +55,30 @@ body {
     background: #fff;
     font-size: 18px;
   }
-
   .main {
     background: #fff;
     margin: 0 auto;
   }
-
   .main-wrapper {
     position: relative;
   }
-
-  .the-moon, .the-sun, .the-earth {
+  .the-moon,
+  .the-sun,
+  .the-earth {
     list-style: none;
     font-size: 28px;
     padding: 5px 15px;
     border-bottom: 2px solid #ddd;
     margin: 0 auto;
   }
-
   .menu a {
     color: #5d5d5d;
     font-size: 17px;
   }
-
   .menu a.active {
     font-weight: bold;
     color: #54597d;
   }
-
   .title-wrapper {
     color: #000;
     font-size: 45px;
@@ -89,20 +86,18 @@ body {
     margin: 0 auto;
     padding: 100px 10px;
   }
-
   .title {
-    font-size: 36px;;
+    font-size: 36px;
+    ;
     color: #484747;
     padding: 20px;
   }
-
   .text {
     color: #5d5d5d;
     text-indent: 1.2em;
     padding: 20px;
     text-align: justify;
   }
-
   .topbutton {
     position: fixed;
     right: 30px;
@@ -124,43 +119,38 @@ body {
   body {
     font-size: 20px;
   }
-
   .main {
     background: #0a1223;
     margin: 0 auto;
     text-align: center;
   }
-
-  .the-moon, .the-sun, .the-earth {
+  .the-moon,
+  .the-sun,
+  .the-earth {
     display: inline-block;
     font-size: 28px;
     padding: 20px 15px;
     margin: 0 auto;
   }
-
   .menu a {
     color: #5d5d5d;
     font-size: 17px;
   }
-
   .menu a.active {
     color: #54597d;
   }
-
   .menu a:hover {
     color: #54597d;
   }
-
   .title-wrapper {
     font-size: 60px;
     margin: 0 auto;
-    padding: 170px 0px;
+    padding: 170px 0;
   }
-
   .title {
     font-size: 30px;
     color: #fff;
-    padding: 20px 0px;
+    padding: 20px 0;
     text-align: justify;
     position: relative;
   }
@@ -173,83 +163,71 @@ body {
     bottom: 0;
     background: linear-gradient(to left, #0a1223, transparent)
   }
-
   .text {
     font-size: 15px;
     color: #5d5d5d;
-    text-indent: 1.2px;
-    padding: 20px 0px;
+    text-indent: 1.2em;
+    padding: 20px 0;
     text-align: justify;
   }
-
   .topbutton {
     display: none;
   }
-
   article {
-    padding: 0px 50px;
+    padding: 0 50px;
   }
-
   .about {
     max-width: 555px;
     margin: 0 auto;
   }
-
   article img {
     padding: 40px 0;
   }
 }
 
-@media screen and (min-width: 992px){
-
+@media screen and (min-width: 992px) {
   img {
     width: 50%;
   }
-
   .main {
     position: relative;
     background: #0a1223;
     margin: 0 auto;
     max-width: 1400px;
   }
-
-  .the-moon, .the-sun, .the-earth {
+  .the-moon,
+  .the-sun,
+  .the-earth {
     display: inline-block;
     font-size: 28px;
     padding: 20px 15px;
     margin: 0 auto;
   }
-
   .menu {
     position: absolute;
     top: 10px;
     right: 10px;
   }
-
   .menu a {
     color: #5d5d5d;
     font-size: 17px;
   }
-
   .menu a.active {
     color: #54597d;
   }
-
   .menu a:hover {
     color: #54597d;
   }
-
   .title-wrapper {
     font-size: 70px;
     margin: 0 auto;
     padding: 220px 0 100px 0;
     text-align: center;
   }
-
   .title {
     font-size: 35px;
     color: #fff;
-    padding: 20px 0px;
+    padding: 20px 0;
     text-align: justify;
     position: relative;
   }
@@ -262,35 +240,29 @@ body {
     bottom: 0;
     background: linear-gradient(to left, #0a1223, transparent)
   }
-
   .text {
     color: #5d5d5d;
     font-size: 16px;
-    text-indent: 1.2px;
-    padding: 20px 0px;
+    text-indent: 1.2em;
+    padding: 20px 0;
     text-align: justify;
   }
-
   .topbutton {
     display: none;
   }
-
   .text-wrapper {
     padding-right: 10px;
   }
-
   article {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin: 5px 0px;
-    padding: 0px 80px;
+    margin: 5px 0;
+    padding: 0 80px;
   }
-
   article:nth-child(odd) {
     flex-direction: row;
   }
-
   .about {
     padding: 80px;
   }
