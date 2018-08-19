@@ -32,7 +32,7 @@ if (confirm('Do you want to play a game?')) {
         userWinned = true;
         userWinPrize += currentPrize;
         userWanttoContinue = confirm(`
-          Congrftulation! Your current prize is ${userWinPrize}$.Do you want to continue?
+          Congrftulation! Your prize is ${userWinPrize}$.Do you want to continue?
         `);
         maxPrize *= 3;
         currentPrize = maxPrize;
@@ -43,7 +43,8 @@ if (confirm('Do you want to play a game?')) {
       gameRound--;
     }
     if (!userWinned) {
-      userWanttoContinue = confirm(`Thank you for a game. Your prize is: ${userWinPrize}$. Do you want to play again?`);
+      userWanttoContinue = alert(`Thank you for a game. Your prize is: ${userWinPrize}$.`);
+      userWanttoContinue = confirm(`Do you want to play again?`)
       userWinPrize = 0;
       maxPrize = defaultMaxPrize;
       currentPrize = defaultMaxPrize;
@@ -56,5 +57,5 @@ if (confirm('Do you want to play a game?')) {
     }
   }
 } else {
-  confirm(`'You did not become a millionaire, but can.`);
+  alert(`'You did not become a millionaire, but can.`);
 }
