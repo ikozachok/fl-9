@@ -6,4 +6,4 @@ function getClosestToZero() {
     }
   }
   return closest;
-};
+}

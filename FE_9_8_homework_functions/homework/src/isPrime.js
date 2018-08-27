@@ -7,7 +7,3 @@ function isPrime(x) {
   }
   return isPrime;
 }
-console.log('5', isPrime(5));
-console.log('6', isPrime(6));
-console.log('113', isPrime(113));
-console.log('100', isPrime(100));

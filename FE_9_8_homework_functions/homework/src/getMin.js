@@ -6,4 +6,4 @@ function getMin() {
     }
   }
   return min;
-};
+}
