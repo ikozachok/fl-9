@@ -8,6 +8,7 @@ function userCard(key) {
   }
 
   function getCardOptions() {
+    
     return this.card;
   }
 
@@ -97,7 +98,9 @@ function UserAccount() {
   }
 
   this.getCardByKey = function (key) {
+
     return this.cards.find(function(el) {
+
       return el.card.key === key
     });
   }
