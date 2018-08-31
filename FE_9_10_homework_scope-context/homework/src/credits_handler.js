@@ -1,4 +1,3 @@
-
 function userCard(key) {
   const card = {
     key: key,
@@ -8,7 +7,7 @@ function userCard(key) {
   }
 
   function getCardOptions() {
-    
+
     return this.card;
   }
 
